@@ -1,6 +1,12 @@
 import React from 'react';
 import './navigation.css';
-import {facebook} from '../../assets/facebook.svg'
+import facebook from '~assets/facebook.svg'
+import instagram from '~assets/instagram.svg';
+import twitter from '~/assets/twitter.svg';
+import cart from '~/assets/cart.svg';
+
+
+
 
 export default function Navigation() {
   return (
@@ -11,10 +17,10 @@ export default function Navigation() {
         <li><a href="contact.asp">CONTATO</a></li>
       </ul>
       <nav>
-        <li><a href="facebook.asp"><img alt="facebook" src="../../assets/facebook"/></a></li>
-        <li><a href="instagram.asp"><img alt="instagram" src="../../assets/instagram"/></a></li>
-        <li><a href="twitter.asp"><img alt="twitter" src="../../assets/twitter"/></a></li>
-        <li><a href="cart.asp"><img alt="cart" src="../../assets/cart"/></a></li>
+        <li><a href="facebook.asp"><img alt="facebook" src={facebook}/></a></li>
+        <li><a href="instagram.asp"><img alt="instagram" src={instagram}/></a></li>
+        <li><a href="twitter.asp"><img alt="twitter" src={twitter}/></a></li>
+        <li><a href="cart.asp"><img alt="cart" src={cart}/></a></li>
 
       </nav>
     </div>
