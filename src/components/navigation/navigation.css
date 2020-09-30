@@ -1,0 +1,45 @@
+/* Universal Styles */
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+ul {
+  display: flex;
+  font-size: 14px;
+  height: 100%;
+  align-items: center;
+  margin-left: 138px;
+}
+
+ul li {
+  padding-right: 30px;
+}
+
+.Navigation {
+  text-align: center;
+  font: normal normal bold 14px/19px Noto Sans;
+  letter-spacing: 0px;
+  color: #BFB5A2;
+  text-transform: uppercase;
+  opacity: 1;
+  height: 130px;
+  background-color: #BFB5A2;
+  justify-content: center;
+}
+
+
+
+
+
